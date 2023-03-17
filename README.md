@@ -1,6 +1,7 @@
 # AlphaCompiler
 
 make all ; // to build
+
 make clean; // clean everything
 
 How to run?
