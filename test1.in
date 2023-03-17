@@ -1,0 +1,37 @@
+a = [5,2,"tr",print];
+z = objectcopy(a);
+print(a);
+z[3]("hello");
+
+
+print("TM ",objecttotalmembers(z));
+print("TA ",totalarguments());
+
+print("\n argument not in function ",argument(0));
+c = totalarguments();
+print("\n",c);
+
+function f (a,b ,c ,d , e , f ){
+
+    print("\nTotal in F : ", totalarguments());
+    print("\n",argument(0));
+    print("\n ",argument(1));
+     print("\n",argument(2));
+    print("\n",argument(3));
+    print("\n",argument(4));
+    print("\n",argument(5));
+   
+   
+     print("\nTotal in F : ", totalarguments());
+
+}
+
+f(3,4,5,print ,"asdkja", "Hello World! ");
+print(argument(0));
+
+l = cos(90);
+s = sin(80);
+p = strtonum(input());
+t = sqrt(25);
+
+print(l,s,p,t);
